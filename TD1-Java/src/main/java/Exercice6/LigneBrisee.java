@@ -3,8 +3,8 @@ package Exercice6;
 import java.util.LinkedList;
 
 public class LigneBrisee {
-	private int nombreMaxiDePoints;
-	private int compteurDePointsAjoutés = 0;
+	//private int nombreMaxiDePoints;
+	//private int compteurDePointsAjoutés = 0;
 	//private Point[] tabDePoints;
 	private LinkedList<Point> tabDePoints;
 	
