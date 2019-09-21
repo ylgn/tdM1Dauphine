@@ -1,5 +1,4 @@
-package Exercice5;
-
+package Exercice6;
 
 public class Point {
 	private int x;
@@ -38,9 +37,15 @@ public class Point {
 		//Réponse question 4.1 
 		//=> Cela fonction car les données x et y appartiennent 
 		//à la classe et sont initialement initée à zéro lors de la création de l'objet.
+		LigneBrisee line =  new LigneBrisee();
+		//System.out.println(line.contains(null));
+		line.add(p);
+		//System.out.println(line.contains(null));
+		//line.add(null);
+		//System.out.println(line.contains(null));
+		
 
 	}
-	
 	public boolean isSamePoint(Point p1,Point p2) {
 		if(p1.x == p2.x && p1.y ==p2.y) {
 			return true;
