@@ -22,18 +22,7 @@ public class Point {
 	}
 
 	public static void main(String[] args) {
-		Point p = new Point(2,1);
-		String point = "("+p.x+","+p.y+")";
-		System.out.println(compteurDePointsCréés);
-		System.out.println(point);
-		Point o = new Point();
-		point = "("+o.x+","+o.y+")";
-		System.out.println(compteurDePointsCréés);
-		System.out.println(point);
-		Point i = new Point(2);
-		point = "("+i.x+","+i.y+")";
-		System.out.println(point);
-		System.out.println(compteurDePointsCréés);
+		Cercle c = new Cercle(new Point(1,2), 2);
 		
 		
 
@@ -50,6 +39,12 @@ public class Point {
 	}
 	public String toString() {
 		return "("+x+","+y+")";
+	}
+	public int getX() {
+		return this.x;
+	}
+	public int getY() {
+		return this.y;
 	}
 
 }
