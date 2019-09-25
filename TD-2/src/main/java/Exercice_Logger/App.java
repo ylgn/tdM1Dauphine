@@ -11,8 +11,9 @@ public class App
         System.out.println( "Hello World!" );
         Object test = new Object();
         System.out.println(test.getClass().toString());
+        
         Logger.log(test, "lol");
         classeDeTest a = new classeDeTest();
-        
+       ;
     }
 }
